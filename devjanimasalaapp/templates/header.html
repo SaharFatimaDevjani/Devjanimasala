@@ -1,0 +1,36 @@
+{% load static %}
+<!-- banner bg main start -->
+<div class="banner_bg_main_rest">
+    <!-- header top section start -->
+    <div class="container">
+       <div class="header_section_top">
+          <div class="row">
+             <div class="col-sm-12">
+                <div class="custom_menu">
+                   <ul>
+                      <li><a href="/devjanimasala/">Home</a></li>
+                      {% for category in Category  %}
+                     <li><a href=/devjanimasala/category/{{category.id}}>{{category.category_name}}</a></li>
+                     {% endfor %}
+                      <li><a href="/devjanimasala/contact/">Contact</a></li>
+                   </ul>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+    <!-- header top section start -->
+    <!-- logo section start -->
+    <div class="logo_section">
+       <div class="container">
+          <div class="row">
+             <div class="col-sm-12">
+                <div class="logo"><a href="#"><img src="{% static 'images/logo.png' %}"></a></div>
+             </div>
+          </div>
+       </div>
+    </div>
+    <!-- logo section end -->
+
+ </div>
+ <!-- banner bg main end -->
