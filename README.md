@@ -65,7 +65,7 @@ Go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to see the site locally.
 
 ## 🙏 Credits
 
-Built and maintained by **Sahar Fatima Devjani**. Special Thanks to  Sir Sannad Bilal (CodeGirls).
+Built and maintained by **Sahar Fatima Devjani**. Special Thanks to  **Sir Sannad Bilal (CodeGirls)**.
 
 ---
 
